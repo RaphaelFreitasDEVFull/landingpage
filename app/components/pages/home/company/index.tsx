@@ -3,7 +3,7 @@ import Image from 'next/image'
 const companyLogos = [
   { label: 'Amazon', url: '/images/logos/amazon.png' },
   { label: 'Dribble', url: '/images/logos/dribble.png' },
-  { label: 'HubSpot', url: '/images/logos/HubSpot.png' },
+  { label: 'HubSpot', url: '/images/logos/hubspot.png' },
   { label: 'Netflix', url: '/images/logos/netflix.png' },
   { label: 'Notion', url: '/images/logos/notion.png' },
   { label: 'zoom', url: '/images/logos/zoom.png' },
