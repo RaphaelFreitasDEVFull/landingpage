@@ -1,4 +1,3 @@
-import { Contact } from 'lucide-react'
 import ADS from './components/pages/home/ads'
 import CasaEstudies from './components/pages/home/case-estudies'
 import Company from './components/pages/home/company'
