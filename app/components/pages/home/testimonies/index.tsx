@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 const Testimonies = () => {
   return (
-    <section className="container py-12 flex flex-col gap-10 items-center justify-center">
+    <section className="container py-12 flex flex-col gap-10 items-center ">
       <TitlePage
         title="Depoimentos"
         subtitle="Ouça nossos clientes satisfeitos: Leia nossos depoimentos para saber mais sobre nossos serviços de Marketing Digital"
