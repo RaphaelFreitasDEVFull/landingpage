@@ -7,7 +7,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 type CardProps = {
   id: number

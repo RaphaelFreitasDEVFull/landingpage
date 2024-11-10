@@ -1,5 +1,4 @@
 import TitlePage from '@/app/components/title-page'
-import { title } from 'process'
 import Card from './card'
 
 const MOCKUP = [

@@ -31,7 +31,7 @@ const Testimonies = () => {
                 esforços deles. A equipe é profissional, ágil e realmente se
                 importa com o sucesso do nosso negócio. Recomendamos fortemente
                 a Positivus para qualquer empresa que queira crescer sua
-                presença online."
+                presença online.
               </p>
               <div className="flex flex-col items-start justify-start">
                 <h2 className="text-emerald-200">Jhon Smith</h2>
@@ -53,7 +53,7 @@ const Testimonies = () => {
                 esforços deles. A equipe é profissional, ágil e realmente se
                 importa com o sucesso do nosso negócio. Recomendamos fortemente
                 a Positivus para qualquer empresa que queira crescer sua
-                presença online."
+                presença online.
               </p>
               <div className="flex flex-col items-start justify-start">
                 <h2 className="text-emerald-200">Jhon Smith</h2>
@@ -75,7 +75,7 @@ const Testimonies = () => {
                 esforços deles. A equipe é profissional, ágil e realmente se
                 importa com o sucesso do nosso negócio. Recomendamos fortemente
                 a Positivus para qualquer empresa que queira crescer sua
-                presença online."
+                presença online.
               </p>
               <div className="flex flex-col items-start justify-start">
                 <h2 className="text-emerald-200">Jhon Smith</h2>
@@ -97,7 +97,7 @@ const Testimonies = () => {
                 esforços deles. A equipe é profissional, ágil e realmente se
                 importa com o sucesso do nosso negócio. Recomendamos fortemente
                 a Positivus para qualquer empresa que queira crescer sua
-                presença online."
+                presença online.
               </p>
               <div className="flex flex-col items-start justify-start">
                 <h2 className="text-emerald-200">Jhon Smith</h2>
@@ -119,7 +119,7 @@ const Testimonies = () => {
                 esforços deles. A equipe é profissional, ágil e realmente se
                 importa com o sucesso do nosso negócio. Recomendamos fortemente
                 a Positivus para qualquer empresa que queira crescer sua
-                presença online."
+                presença online.
               </p>
               <div className="flex flex-col items-start justify-start">
                 <h2 className="text-emerald-200">Jhon Smith</h2>
@@ -141,7 +141,7 @@ const Testimonies = () => {
                 esforços deles. A equipe é profissional, ágil e realmente se
                 importa com o sucesso do nosso negócio. Recomendamos fortemente
                 a Positivus para qualquer empresa que queira crescer sua
-                presença online."
+                presença online.
               </p>
               <div className="flex flex-col items-start justify-start">
                 <h2 className="text-emerald-200">Jhon Smith</h2>

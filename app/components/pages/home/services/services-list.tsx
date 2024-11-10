@@ -1,7 +1,7 @@
 import { Button } from '@/app/components/button'
 import { cn } from '@/lib/utils'
 import Image from 'next/image'
-import { TbArrowAutofitRight, TbArrowNarrowRight } from 'react-icons/tb'
+import { TbArrowNarrowRight } from 'react-icons/tb'
 
 type ServiceListProps = {
   label: string
