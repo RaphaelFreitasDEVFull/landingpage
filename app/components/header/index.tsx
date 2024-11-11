@@ -32,7 +32,7 @@ const Header = () => {
               className="text-black text-md hover:text-emerald-500 transition-all duration-100"
             />
           ))}
-          <Button className="mt-8 lg:mt-0 text-black border border-s-1 border-black hover:bg-[#B9FF66]">
+          <Button className="mt-8 lg:mt text-black border border-s-1 border-black hover:bg-[#B9FF66]">
             Solicitar um orçamento
           </Button>
         </nav>

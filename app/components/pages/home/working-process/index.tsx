@@ -42,7 +42,7 @@ const MOCKUP = [
 
 const WorkingProcess = () => {
   return (
-    <section className="container sm:py-0 py-16">
+    <section className="container py-16">
       <TitlePage
         title="Nosso processo de trabalho"
         subtitle="Guia passo-a-passo para alcançar os objetivos do seu negócio"

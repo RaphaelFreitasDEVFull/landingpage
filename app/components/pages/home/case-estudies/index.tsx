@@ -4,7 +4,7 @@ import { TbArrowNarrowRight } from 'react-icons/tb'
 
 const CasaEstudies = () => {
   return (
-    <section className="container py-16 w-full ">
+    <section className="container pt-48 lg:pt-16 w-full ">
       <TitlePage
         title="Estudos de Caso"
         subtitle="Explore exemplos reais de nosso sucesso comprovado em Marketing Digital por meio de nossos Estudos de Caso"
@@ -21,7 +21,7 @@ const CasaEstudies = () => {
             <TbArrowNarrowRight />
           </a>
         </div>
-        <div className="sm:hidden lg:block">
+        <div className="hidden lg:block">
           <VerticalDivider />
         </div>
 
@@ -36,7 +36,7 @@ const CasaEstudies = () => {
             <TbArrowNarrowRight />
           </a>
         </div>
-        <div className="sm:hidden lg:block">
+        <div className="hidden lg:block">
           <VerticalDivider />
         </div>
         <div className="p-5 flex flex-col justify-around h-full">
