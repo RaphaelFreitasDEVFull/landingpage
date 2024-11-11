@@ -47,7 +47,7 @@ const Team = () => {
         title="Time"
         subtitle="Conheça a equipe qualificada e experiente por trás de nossas estratégias de marketing digital bem-sucedidas"
       />
-      <div className="flex flex-wrap gap-x-4 gap-y-3 items-center justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-6">
         {MOCKUP.map((item, i) => (
           <CardTeam {...item} key={i} />
         ))}

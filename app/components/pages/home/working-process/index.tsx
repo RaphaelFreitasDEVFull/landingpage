@@ -42,12 +42,12 @@ const MOCKUP = [
 
 const WorkingProcess = () => {
   return (
-    <section className="container py-16">
+    <section className="container py-16 px-4 sm:px-6 md:px-8">
       <TitlePage
         title="Nosso processo de trabalho"
         subtitle="Guia passo-a-passo para alcançar os objetivos do seu negócio"
       />
-      <div className="flex flex-col gap-5 my-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 my-8">
         {MOCKUP.map((item) => (
           <Card {...item} key={item.id} />
         ))}

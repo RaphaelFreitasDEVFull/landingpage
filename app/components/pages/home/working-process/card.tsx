@@ -7,7 +7,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion'
-import { useState } from 'react'
 
 type CardProps = {
   id: number
@@ -16,30 +15,21 @@ type CardProps = {
 }
 
 const Card = ({ id, description, title }: CardProps) => {
-  const handleClickButton = () => {
-    setShow(!show)
-  }
-
-  const [show, setShow] = useState(false)
-
   return (
     <Accordion
       type="single"
       collapsible
       className="bg-[#F3F3F3] p-12 rounded-xl shadow-black/25 shadow-lg"
     >
-      <AccordionItem value="item-1">
+      <AccordionItem value={`item-${id}`}>
         <AccordionTrigger>
           <div className="flex items-center justify-between w-full">
             <div className="flex gap-3 items-center">
               <span className="text-4xl font-medium">{id}</span>
               <h3 className="text-xl">{title}</h3>
             </div>
-            <Button
-              className="font-medium text-4xl rounded-full bg-white h-8 w-8 border border-black hover:bg-blue-800/20"
-              onClick={handleClickButton}
-            >
-              {!show ? '+' : '-'}
+            <Button className="font-medium text-4xl rounded-full bg-white h-8 w-8 border border-black hover:bg-blue-800/20">
+              +
             </Button>
           </div>
         </AccordionTrigger>

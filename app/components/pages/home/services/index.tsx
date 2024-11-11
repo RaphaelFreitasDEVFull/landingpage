@@ -42,12 +42,12 @@ const MOCKUP_SERVICES = [
 
 const Services = () => {
   return (
-    <section className="container mt-8 lg:mt-32">
+    <section className="container mt-8 lg:mt-32 px-4 sm:px-6 md:px-8">
       <TitlePage
         title="Serviços"
         subtitle="Na nossa agência de marketing digital, oferecemos uma variedade de serviços para ajudar empresas a crescer e ter sucesso online. Esses serviços incluem:"
       />
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 mt-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
         {MOCKUP_SERVICES.map((service) => (
           <ServiceList {...service} key={service.label} />
         ))}
