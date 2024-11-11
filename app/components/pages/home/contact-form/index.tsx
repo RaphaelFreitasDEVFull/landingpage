@@ -70,13 +70,15 @@ const ContactForm = () => {
             </Button>
           </TabsContent>
         </Tabs>
-        <Image
-          src={'/images/img-form.png'}
-          width={250}
-          height={250}
-          alt="img form"
-          className="mr-[-40px] "
-        />
+        <div className="hidden lg:inline-block">
+          <Image
+            src={'/images/img-form.png'}
+            width={250}
+            height={250}
+            alt="img form"
+            className="mr-[-40px] "
+          />
+        </div>
       </div>
     </section>
   )

@@ -10,7 +10,7 @@ type CardTeamProps = {
 
 const CardTeam = ({ desc, name, role, url }: CardTeamProps) => {
   return (
-    <div className="w-[350px] flex flex-col bg-white border border-black shadow-xl shadow-black/25 p-10 rounded-xl">
+    <div className="lg:w-[350px] w-full flex flex-col bg-white border border-black shadow-xl shadow-black/25 p-10 rounded-xl">
       <div className="flex">
         <div className="flex items-end gap-4">
           <Image src={url} width={60} height={60} alt="team-name" />

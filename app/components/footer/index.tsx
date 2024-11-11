@@ -9,7 +9,7 @@ import HorizontalDivider from '../divider/horizontal'
 const Footer = () => {
   return (
     <footer className="container bg-black py-12 px-8 rounded-t-3xl">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col lg:flex-row gap-6 lg:gap-0 items-center justify-between mb-8">
         <div>
           <Image src={'/logo-2.png'} width={100} height={50} alt="logo" />
         </div>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
       </div>
       <HorizontalDivider className="bg-white" />
-      <div className="text-white font-light text-sm flex items-center justify-center">
+      <div className="text-white mt-8 font-light text-sm flex items-center justify-center">
         <p>
           Todos os Direitos Reservados | Raphael Silva Freitas - Design por
           <a

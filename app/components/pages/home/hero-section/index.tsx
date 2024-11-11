@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const HeroSection = () => {
   return (
-    <section className="flex items-center justify-between h-full w-full mt-32 container">
+    <section className="flex items-center justify-between h-full w-full mt-56 lg:mt-32 container">
       <div className="flex flex-col max-w-[50%]">
         <h1 className="text-4xl font-medium line">
           Navegando pelo cenário digital rumo ao sucesso

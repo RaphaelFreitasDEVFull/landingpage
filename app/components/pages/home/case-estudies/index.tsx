@@ -1,3 +1,4 @@
+import HorizontalDivider from '@/app/components/divider/horizontal'
 import VerticalDivider from '@/app/components/divider/vertical'
 import TitlePage from '@/app/components/title-page'
 import { TbArrowNarrowRight } from 'react-icons/tb'
@@ -9,7 +10,7 @@ const CasaEstudies = () => {
         title="Estudos de Caso"
         subtitle="Explore exemplos reais de nosso sucesso comprovado em Marketing Digital por meio de nossos Estudos de Caso"
       />
-      <div className="flex gap-4 w-full h-[280px] bg-black text-white my-8 rounded-xl items-center justify-center text-center">
+      <div className="flex flex-col lg:flex-row gap-4 w-full h-full lg:h-[280px] bg-black text-white my-8 rounded-xl items-center justify-center text-center">
         <div className="p-5 flex flex-col justify-around h-full">
           <p className="">
             Para um restaurante local, implementamos uma campanha de PPC
@@ -21,7 +22,10 @@ const CasaEstudies = () => {
             <TbArrowNarrowRight />
           </a>
         </div>
-        <VerticalDivider />
+        <div className="sm:hidden lg:block">
+          <VerticalDivider />
+        </div>
+
         <div className="p-5 flex flex-col justify-around h-full">
           <p className="">
             Para uma empresa de software B2B, desenvolvemos uma estratégia de
@@ -33,7 +37,9 @@ const CasaEstudies = () => {
             <TbArrowNarrowRight />
           </a>
         </div>
-        <VerticalDivider />
+        <div className="sm:hidden lg:block">
+          <VerticalDivider />
+        </div>
         <div className="p-5 flex flex-col justify-around h-full">
           <p className="">
             Para uma cadeia de varejo nacional, criamos uma campanha de

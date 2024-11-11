@@ -20,7 +20,7 @@ const ServiceList = ({
   return (
     <div
       className={cn(
-        'flex items-center wfu justify-between h-[300px] border border-black rounded-xl shadow-black/20 shadow-xl',
+        'flex items-center justify-between h-[300px] border border-black rounded-xl shadow-black/20 shadow-xl',
         backColor === 'fundoBlack'
           ? 'bg-black'
           : backColor === '#F3F3F3'
@@ -30,7 +30,7 @@ const ServiceList = ({
           : null,
       )}
     >
-      <div className="flex flex-col items-center justify-between h-full py-6 px-4">
+      <div className="flex flex-col sm:mt-12 items-center justify-between h-full py-6 px-4">
         <h2
           className={cn(
             textColor === 'branco' ? 'bg-white' : 'bg-[#B9FF66]',

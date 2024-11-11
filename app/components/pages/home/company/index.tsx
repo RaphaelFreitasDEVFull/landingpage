@@ -12,7 +12,7 @@ const companyLogos = [
 const Company = () => {
   return (
     <section>
-      <div className="container flex items-center justify-around mt-8">
+      <div className="container flex sm:grid sm:grid-cols-3 gap-8 items-center justify-center w-full mt-8">
         {companyLogos.map((company) => (
           <Image
             src={company.url}
