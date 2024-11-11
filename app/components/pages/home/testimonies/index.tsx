@@ -10,12 +10,12 @@ import Image from 'next/image'
 
 const Testimonies = () => {
   return (
-    <section className="container py-12 flex flex-col gap-10 items-center ">
+    <section className="container py-12  flex-col gap-10 items-center hidden lg:flex ">
       <TitlePage
         title="Depoimentos"
         subtitle="Ouça nossos clientes satisfeitos: Leia nossos depoimentos para saber mais sobre nossos serviços de Marketing Digital"
       />
-      <div className="bg-black p-12 rounded-2xl">
+      <div className="bg-black p-12 rounded-2xl ">
         <Carousel>
           <CarouselContent>
             <CarouselItem className="flex flex-col items-center w-full justify-center">
