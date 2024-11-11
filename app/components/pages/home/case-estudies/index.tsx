@@ -1,4 +1,3 @@
-import HorizontalDivider from '@/app/components/divider/horizontal'
 import VerticalDivider from '@/app/components/divider/vertical'
 import TitlePage from '@/app/components/title-page'
 import { TbArrowNarrowRight } from 'react-icons/tb'
